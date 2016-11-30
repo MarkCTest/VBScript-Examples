@@ -1,3 +1,7 @@
+﻿' ------- This script opens a web browser and takes a screen shot
+' ------- You need to have Microsoft Word installed for this to work
+' ------- BE AWARE - VBScript can be unreliable at making this work!
+
 Option Explicit
 
 ' ------- Declare the variables  ----------------- 
