@@ -1,7 +1,8 @@
-'------------------ TEST SERVER STATUS CHECK --------------------
-'----- This script will PING each server to see if it is up -----
-'----- it then writes the results to a .csv file for review -----
-'----------------------------------------------------------------
+'------------------ TEST SERVER STATUS CHECK -------------------------------
+'----- This script will PING each server to see if it is up ----------------
+'----You need to have a serverlist.txt file with the IP or www address in --
+'----- it then writes the results to a .csv file for review ----------------
+'---------------------------------------------------------------------------
 dim strInputPath, strOutputPath, strStatusdim objFSO, objTextIn, objTextOut 
 
 ' ---- Location of the server list input file
